@@ -1,0 +1,272 @@
+.nav-link {
+    transition: background 0.3s, color 0.3s;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background-color: #FFD700;
+    color: #181818 !important;
+}
+
+.sidebar h2 {
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #e0c200;
+}
+
+/* Welcome Section */
+.welcome-container h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-container p {
+    line-height: 1.8;
+}
+
+.welcome-container img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.welcome-container img:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+    body {
+            background: #181818;
+            color: #FFD700;
+        }
+        .form-label {
+            color: #FFD700;
+            font-weight: 500;
+        }
+        .form-control {
+            background: #232323;
+            color: #FFD700;
+            border: 1px solid #FFD700;
+        }
+
+        .form-control:focus {
+            background: #232323;
+            color: #FFD700;
+            border-color: #FFD700;
+            box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.15);
+        }
+        .form-control::placeholder {
+            color: #FFD700;
+            opacity: 0.7;
+        }
+        .form-control:disabled,
+        .form-control[readonly] {
+            background: #232323;
+            color: #FFD700;
+            border: 1px solid #FFD700;
+        }
+        .form-control:disabled:focus,
+        .form-control[readonly]:focus {
+            background: #232323;
+            color: #FFD700;
+            border-color: #FFD700;
+            box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+        }
+        .form-control:focus::placeholder {
+            color: #FFD700;
+            opacity: 0.7;
+        }
+        .form-control:disabled::placeholder,
+        .form-control[readonly]::placeholder {
+            color: #FFD700;
+            opacity: 0.7;
+        }
+        .form-control:focus,
+        .form-control:disabled,
+        .form-control[readonly] {
+            background: #232323;
+            color: #FFD700;
+            border: 1px solid #FFD700;
+        }
+        .form-control:focus,
+        .form-control:disabled,
+        .form-control[readonly] {
+            background: #232323;
+            color: #FFD700;
+            border: 1px solid #FFD700;
+        }
+    textarea {
+        background: #232323;
+        color: #FFD700;
+        border: 1px solid #FFD700;
+    }
+
+    input,
+    select {
+        background: #232323;
+        color: #FFD700;
+        border: 1px solid #FFD700;
+    }
+
+    pre {
+        background: #232323;
+        color: #FFD700;
+        padding: 15px;
+        border-radius: 8px;
+        overflow-x: auto;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+    h1 {
+        color: #FFD700;
+    }
+    h3 {
+        color: #FFD700;
+    }
+    h5 {
+        color: #FFD700;
+    }
+    .btn-warning {
+        background: #FFD700;
+        color: #181818;
+        font-weight: bold;
+        border: none;
+    }
+    .btn-warning:hover {
+        background: #e0c200;
+        color: #181818;
+    }
+    .back-button {
+        color: #FFD700;
+        font-weight: bold;
+    }
+    .back-button:hover {
+        color: #FFC107;
+    }
+    .card {
+        background: #232323;
+        border: 1.5px solid #FFD700;
+        border-radius: 16px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    }
+    .card:hover {
+        transform: translateY(-6px) scale(1.03);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+        transition: all 0.3s;
+    }
+    .card-body {
+        text-align: center;
+    }
+    .card-title {
+        color: #FFD700;
+    }
+    .card-text {
+        color: #fffbe7;
+    }
+    .card-text.text-success {
+        font-weight: bold;
+    }
+    .card-text.text-success {
+        color: #28a745;
+    }
+    .table thead {
+        background: #FFD700;
+        color: #181818;
+    }
+    .table td,
+    .table th {
+        vertical-align: middle;
+    }
+
+@media (max-width: 768px) {
+    .card {
+        padding: 1rem !important;
+    }
+    .sidebar {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+    }
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media (max-width: 576px) {
+    .welcome-container h1 {
+        font-size: 1.5rem;
+    }
+    .welcome-container p {
+        font-size: 0.9rem;
+    }
+}
+    .welcome-container img {
+        width: 100%;
+        height: auto;
+    }
+    .sidebar {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+    }
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .card {
+        padding: 1rem !important;
+    }
+/* Responsive Sidebar */
+@media (max-width: 991.98px) {
+    .sidebar {
+        position: static !important;
+        width: 100% !important;
+        min-height: auto !important;
+        border-right: none !important;
+        border-bottom: 2px solid #FFD700 !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 0 !important;
+        z-index: 10;
+    }
+    .sidebar h2 {
+        display: none;
+    }
+    .sidebar a, .sidebar .btn {
+        margin-bottom: 0 !important;
+        margin-right: 8px;
+        font-size: 1rem;
+        padding: 8px 10px;
+        width: auto !important;
+    }
+}
+@media (max-width: 576px) {
+    .sidebar a, .sidebar .btn {
+        font-size: 0.95rem;
+        padding: 6px 6px;
+    }
+}
+/* Responsive Card Padding */
+@media (max-width: 991.98px) {
+    .card {
+        padding: 1rem !important;
+    }
+    .container, .container-fluid {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+@media (max-width: 576px) {
+    .card {
+        padding: 0.5rem !important;
+    }
+    .container, .container-fluid {
+        padding-left: 0.2rem !important;
+        padding-right: 0.2rem !important;
+    }
+}
